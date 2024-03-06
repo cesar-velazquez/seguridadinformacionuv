@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seguridad de la Información</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Libreria para animar  los recursos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Barra de progreso en la parte superior -->
+    <div id="progress"></div>
+
+    <!-- SIDEBAR MENÚ -->
+    <navbar class="sidebar" style="overflow-y: scroll;">
+
+        <div class="sidebar__encabezado">
+            <button class="btn btn-link sidebar__dismiss" aria-label="Cerrar menú desplegado">
+                <span>X</span>
+            </button>
+        </div>
+
+        <menu-component></menu-component>
+
+    </navbar>
+
+    <!-- PLECA Y TITULO -->
+    <header class="banner-1">
+
+        <div class="escritorio">
+
+            <div class="js-pleca pleca">
+
+                <a class="pleca__uv" href="https://uv.mx/" target="__blank" lang="es">Universidad Veracruzana</a>
+
+                <div class="dropdown">
+                    <button class="btn btn-menu js-sidebar__collapse" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="font-weight-bold">MENÚ&nbsp;&nbsp;</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div class="pleca__ee container ml-0" style="display: none;">
+                    <span class="text-left">
+                        <p class="tam-font font-weight-bold mb-3 texto-tema-margen">
+                            Seguridad de la Información
+                        </p>
+                    </span>
+                </div>
+
+            </div>
+            <img class="ocultar" src="./images/SDI-_banner-e.png" alt="Banner principal" aria-hidden="true" width="100%"
+                height="auto">
+            <img class="mostrar" src="./images/SDI-_banner-r.png" alt="Banner Principal" aria-hidden="true" width="100%"
+            height="auto">
+        </div>
+
+        <!-- <div class="movil">
+            <div class="js-pleca pleca">
+                <a class="pleca__uv" href="https://uv.mx/" target="__blank" lang="es">Universidad Veracruzana</a>
+
+                <button class="btn btn-menu js-sidebar__collapse d-flex align-items-center" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="font-weight-bold">MENÚ&nbsp;&nbsp;</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="d-flex align-items-center">
+
+                    <div class="pleca__ee ml-0" style="display: none; padding-right: 5px !important;">
+                        <span class="text-left">
+                            <p class="tam-font font-weight-bold mb-3 texto-tema-margen">
+                                Inglés 3
+                            </p>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div> -->
+        <!-- <img src="./img/150pp/INGLESINT_banner-r.png" alt="Banner principal" aria-hidden="true" width="100%"
+                height="auto"> -->
+
+        </div>
+
+        <h1 class="titulo-principal">
+            <!-- <span class="cuadrado-titulo"></span> -->
+        </h1>
+
+    </header>
+
+    <!-- Codigo principal -->
+    <main>
+
+        <section class="introduction">
+
+            <div class="container py-4">
+
+                <div class="cuadro-azul-degradado p-3 mt-4 mb-4">
+
+                    <h2 class="parrafo font-weight-bold mb-4 subtitulos text__color">
+                        <img src="./images/SDI-_icono-01.png" alt="Support image" aria-hidden="true" width="45px"
+                            height="auto">
+                        &nbsp; Objetivo
+                    </h2>
+
+                    <p class="parrafo mb-0">
+                        Desarrollar en el participante los conocimientos fundamentales sobre la seguridad de la
+                        información, así como fomentar los hábitos de uso responsable
+                        de los activos de información e instruir en la prevención de incidentes de seguridad.
+                    </p>
+
+                </div>
+
+                <div class="mt-4 mt-md-5">
+
+                    <h2 class="parrafo mb-4 p-3 font-weight-bold subtitulos text__color">
+                        <img src="./images/SDI-_icono-02.png" alt="Support image" aria-hidden="true" width="45px"
+                            height="auto">
+                        &nbsp; Descripción
+                    </h2>
+
+                    <p class="parrafo">
+                        Este curso proporcionará una base en seguridad de la información, abordando conceptos esenciales
+                        para proteger la integridad, confidencialidad y disponibilidad de la información en entornos
+                        digitales.
+                        <br> <br>
+                        Los participantes explorarán temas como control interno, normatividad, seguridad física, lógica
+                        y administrativa,
+                        ISO/IEC 27000, gestión del riesgo, ciberamenazas, y arquitecturas de seguridad. Además, se
+                        examinarán aspectos prácticos, incluyendo ingeniería social,
+                        identidad digital, phishing, contraseñas seguras, malware y cifrado.
+                        <br> <br>
+                        Este curso es esencial para profesionales y entusiastas, que buscan comprender y aplicar medidas
+                        efectivas de seguridad en el mundo digital actual.
+                    </p>
+                </div>
+
+        </section>
+
+        <section class="color_background ">
+
+            <div class="mb-4 mb-md-5  container">
+
+                <h2 class="parrafo text-azul subtitulos text__color">
+                    <img src="./images/SDI-_icono-03.png" alt="Support image" aria-hidden="true" width="45px"
+                        height="auto">
+                    &nbsp; Contenido
+                </h2>
+
+                <!-- schedule-units -->
+                <div class="section_topics">
+                    <div class="section_tema p-2 ">
+                        <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
+                            aria-hidden="true" width="45px" height="auto">
+                        <p class=" parrafo mb-0 ml-3">
+                            <b>Tema 1.</b> Introducción a la Seguridad de la Información
+                        </p>
+                    </div>
+
+
+                    <div class="section_tema p-2">
+                        <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
+                            aria-hidden="true" width="45px" height="auto">
+                        <p class="parrafo mb-0 ml-3">
+                            <b>Tema 2.</b> Seguridad de la Información
+                        </p>
+                    </div>
+
+                    <div class="section_tema p-2">
+                        <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
+                            aria-hidden="true" width="45px" height="auto">
+                        <p class="parrafo mb-0 ml-3">
+                            <b>Tema 3.</b> Ciberseguridad
+                        </p>
+                    </div>
+
+                    <div class="section_tema p-2">
+                        <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
+                            aria-hidden="true" width="45px" height="auto">
+                        <p class="parrafo mb-0 ml-3">
+                            <b>Tema 4.</b> Aplicación de la Seguridad de la Información
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="section-degree ">
+
+            <div class="container py-5">
+
+                <div class="">
+
+                    <h2 class="font-weight-bold text__color subtitulos">
+                        <img src="./images/SDI-_icono-02.png" alt="Support image" aria-hidden="true" width="45px"
+                            height="auto">
+                        &nbsp; Expertos en contenido
+                    </h2>
+
+                </div>
+
+                <div class="escritorio ocultar">
+
+                    <div class="d-flex justify-content-center" style="gap: 1em;">
+
+                        <div class="tarjeta-designers p-3 text-center ">
+
+                            <div class="mb-4">
+                                <img src="./images/SDI-_expertocontenido.png" alt="Support image" aria-hidden="true"
+                                    width="40%" height="auto">
+                            </div>
+
+                            <p class="parrafo text-azul mb-2">
+                                Rigo Daniel Salazar Falfán
+                            </p>
+
+                            <p class="parrafo font-italic mb-3">
+                                Universidad Veracruzana
+                            </p>
+
+                            <!-- btn btn-azul-modals waves-effect waves-light -->
+                            <button class="btn btn-azul-modals waves-effect waves-light" data-toggle="modal"
+                                data-target="#methods-2">
+                                + Info
+                            </button>
+
+                        </div>
+
+                        <div class="tarjeta-designers p-3 text-center">
+
+                            <div class="mb-4">
+                                <img src="./images/SDI-_expertocontenido.png" alt="Support image" aria-hidden="true"
+                                    width="40%" height="auto">
+                            </div>
+
+                            <p class="parrafo text-azul mb-2 text-center">
+                                (Pendiente)
+                            </p>
+
+                            <p class="parrafo font-italic text-center mb-3">
+                                Universidad Veracruzana
+                            </p>
+
+                            <button class="btn btn-azul-modals waves-effect waves-light" data-toggle="modal"
+                                data-target="#methods-2">
+                                + Info
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movil">
+                    <div class="tarjeta-designers p-3">
+                        <div class="mb-4 text-center">
+                            <img src="./images/SDI-_expertocontenido.png" alt="Support image" aria-hidden="true"
+                                width="25%" height="auto">
+                        </div>
+
+                        <p class="parrafo text-azul mb-2 text-center">
+                            Rigo Daniel Salazar Falfán
+                        </p>
+
+                        <p class="parrafo font-italic text-center">
+                            Universidad Veracruzana
+                        </p>
+
+                        <p class="parrafo">
+                            Licenciado en Informática de la Universidad Veracruzana.
+                            Diplomado de seguridad de la información por parte de la Universidad de Chihuahua.
+                            <br> <br>
+                            2ª Edición del Curso Internacional para CISO de Universidades Iberoamericanas por parte de
+                            MetaRed
+                            <br><br>
+                            Experiencia de 7 años laborando en el departo de redes y telecomunicaciones participando en
+                            diversos proyectos de innovación del área. 
+                            <br><br>
+                            Actualmente responsable del departamento de Seguridad y Monitoreo de la Universidad
+                            Veracruzana en el
+                            cual funge como un equipo de respuesta de incidentes de ciberseguridad el (UV-CSIRT),
+                            colaborador en el grupo de seguridad de la información de ANUIES-TIC y colaborador en el
+                            grupo de Ciberseguridad de
+                            Metared México. 
+                            <br><br>
+                            Cursos de seguridad como CISSP, Network Defender, Ethical Hacking, Pentesting,
+                            Computer Hacking Forensic Investigator, NIST, ISO 27032, ISO 27035, Seguridad y gestión en
+                            Redes. 
+                        </p>
+
+                    </div>
+
+                    <div class="tarjeta-designers p-3 mt-3">
+
+                        <div class="mb-4 text-center">
+                            <img src="./images/SDI-_expertocontenido.png" alt="Support image" aria-hidden="true"
+                                width="25%" height="auto">
+                        </div>
+
+                        <p class="parrafo text-azul mb-2 text-center">
+                            PENDIENTE
+                        </p>
+
+                        <p class="parrafo font-italic text-center">
+                            Universidad Veracruzana
+                        </p>
+
+                        <p class="parrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse error quod corporis iure,
+                            velit exercitationem. Laborum voluptatem corporis nostrum assumenda totam earum unde.
+                            Blanditiis repellat nemo, quae sed debitis quia.
+                            Veniam, ipsa quae? Est eum error earum veniam officiis facilis, dolorum modi sint qui eaque
+                            id mollitia inventore neque reiciendis dolorem ipsam sed aliquam alias exercitationem fugiat
+                            fugit nihil voluptatum.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-bibliography">
+
+            <div class="container py-5">
+
+                <div class="">
+
+                    <h2 class="parrafo text-azul subtitulos">
+                        <img src="./images/SDI-_icono-03.png" alt="Support image" aria-hidden="true" width="45px"
+                            height="auto">
+                        &nbsp; Referencias
+                    </h2>
+
+                </div>
+
+                <div class="escritorio mt-5 mb-5">
+
+                    <!-- <p class="parrafo instruccion-color-verde mb-5">
+                        <b>Instruction:</b> Click on the button below to read the information.
+                    </p> -->
+
+                    <div class="colapsador">
+
+                        <button data-toggle="collapse" data-target="#basicas-1"
+                            class="btn btn-colapsar referencias-index waves-effect waves-light collapsed"
+                            aria-expanded="false">
+                            <div class="btn-colapsar-layout">
+                                <span class="linea linea--naranja"></span>
+                                <span class="btn-colapsar-texto">Básicas</span>
+                                <span class="btn-colapsar-icono"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </button>
+
+                        <section id="basicas-1" class="collapse">
+
+                            <h3 class="sr-only">
+                                Básicas
+                            </h3>
+
+                            <div class="colapsar-contenido">
+
+                                <div class="texto-referencias mt-4">
+
+                                    <p class="parrafo">
+                                        Ahmed, S. (2017). Authentic ELT Materials in the Language Classroom: An
+                                        Overview. <i>Journal of Applied Linguistics and Language Research, 4</i>(2),
+                                        181-202.
+                                        <a target="_blank" class="subrayar-enlace"
+                                            href="https://www.jallr.com/index.php/JALLR/article/view/551/pdf551">
+                                            https://<wbr>www.jallr.com/<wbr>index.php/JALLR/<wbr>article/view/<wbr>551/pdf551
+                                            <span class="sr-only"> opens a new tab</span>
+                                        </a>
+                                    </p>
+
+                                    <p class="parrafo mb-0">
+                                        Ahmed, S. (2017). Authentic ELT Materials in the Language Classroom: An
+                                        Overview. <i>Journal of Applied Linguistics and Language Research, 4</i>(2),
+                                        181-202.
+                                        <a target="_blank" class="subrayar-enlace"
+                                            href="https://www.jallr.com/index.php/JALLR/article/view/551/pdf551">
+                                            https://<wbr>www.jallr.com/<wbr>index.php/JALLR/<wbr>article/view/<wbr>551/pdf551
+                                            <span class="sr-only"> opens a new tab</span>
+                                        </a>
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="colapsador">
+
+                        <button data-toggle="collapse" data-target="#basicas-2"
+                            class="btn btn-colapsar referencias-index waves-effect waves-light">
+                            <div class="btn-colapsar-layout">
+                                <span class="linea linea--naranja"></span>
+                                <span class="btn-colapsar-texto">Complementarias</span>
+                                <span class="btn-colapsar-icono"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </button>
+
+                        <section id="basicas-2" class="collapse">
+
+                            <h3 class="sr-only">
+                                Complementarias
+                            </h3>
+
+                            <div class="colapsar-contenido">
+
+                                <div class="texto-referencias mt-4">
+
+                                    <p class="parrafo">
+                                        Ahmed, S. (2017). Authentic ELT Materials in the Language Classroom: An
+                                        Overview. <i>Journal of Applied Linguistics and Language Research, 4</i>(2),
+                                        181-202.
+                                        <a target="_blank" class="subrayar-enlace"
+                                            href="https://www.jallr.com/index.php/JALLR/article/view/551/pdf551">
+                                            https://<wbr>www.jallr.com/<wbr>index.php/JALLR/<wbr>article/view/<wbr>551/pdf551
+                                            <span class="sr-only"> opens a new tab</span>
+                                        </a>
+                                    </p>
+
+                                    <p class="parrafo mb-0">
+                                        Ahmed, S. (2017). Authentic ELT Materials in the Language Classroom: An
+                                        Overview. <i>Journal of Applied Linguistics and Language Research, 4</i>(2),
+                                        181-202.
+                                        <a target="_blank" class="subrayar-enlace"
+                                            href="https://www.jallr.com/index.php/JALLR/article/view/551/pdf551">
+                                            https://<wbr>www.jallr.com/<wbr>index.php/JALLR/<wbr>article/view/<wbr>551/pdf551
+                                            <span class="sr-only"> opens a new tab</span>
+                                        </a>
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <br>
+
+                </div>
+
+                <div class="movil mt-4 mb-5">
+
+                    <p class="parrafo instruccion-color-verde">
+                        <b>Instrucciones:</b> Haz clic en el botón para descargar la información.
+                    </p>
+
+                    <div class="text-right mt-4">
+                        <a href="descargables/" download=""
+                            class="btn btn-referencias border rounded waves-effect waves-light" download="">
+                            Referencias
+                            <span class="parrafo sr-only">PDF file</span>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer class="footer" style="position: relative;">
+
+        <span type="button" class="btn-volver-arriba ir-arriba" aria-hidden="true" aria-label="Volver arriba">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </span>
+
+        <div class="escritorio">
+            <div class="tamaño_Img_Footer">
+                <img class="tamaño__img ocultar" src="./images/SDI-_firmauv-e.png" loading="lazy" width="100%" height="auto"
+                    alt="Logo de la Universidad Veracruzana">
+            </div>
+            <div>
+                <img class="mostrar" src="./images/SDI-_firmauv-r.png" alt="Banner Principal" aria-hidden="true" width="100%"
+            height="auto">
+            </div>
+        </div>
+
+        <!-- <div class="movil">
+            <img src="./img/150pp/INGLESINT_firmauv-e.png" loading="lazy" width="100%" height="auto"
+                alt="Logo de la Universidad Veracruzana">
+        </div> -->
+
+
+    </footer>
+
+
+    <div class="overlay"></div>
+
+
+    <div class="modal fade" id="methods-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close btn-cerrar-modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="container">
+
+                        <div class="text-center">
+
+                            <p class="parrafo text-azul" lang="es">
+                                Miguel Ángel Allen Herbert Vargas
+                            </p>
+
+                        </div>
+
+
+                        <p class="parrafo">
+                            <span lang="es">Miguel Angel Allen Herbert Vargas</span>
+                            holds a BA in English Language and an MA in Teaching English as a Foreign Language.
+                            He is a full-time professor at the BA in English Language since 2017 and has more than 18
+                            years of experience at higher
+                            education and in teacher training. He has been a member of the NAB (<span lang="es"
+                                class="font-italic">Núcleo Académico Básico</span>)
+                            from the Masters in Teaching English as a Foreign Language program since 2016.
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cerrar-modal waves-effect waves-light"
+                        style="border-radius: 7px;" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="methods-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close btn-cerrar-modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="container">
+
+                        <div class="text-center">
+
+                            <p class="parrafo text-azul" lang="es">
+                                Miguel Ángel Allen Herbert Vargas
+                            </p>
+
+                        </div>
+
+
+                        <p class="parrafo">
+                            <span lang="es">Miguel Angel Allen Herbert Vargas</span>
+                            holds a BA in English Language and an MA in Teaching English as a Foreign Language.
+                            He is a full-time professor at the BA in English Language since 2017 and has more than 18
+                            years of experience at higher
+                            education and in teacher training. He has been a member of the NAB (<span lang="es"
+                                class="font-italic">Núcleo Académico Básico</span>)
+                            from the Masters in Teaching English as a Foreign Language program since 2016.
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cerrar-modal waves-effect waves-light"
+                        style="border-radius: 7px;" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+
+    <!-- Funcionalidad general -->
+    <script src="scripts/home.js"></script>
+    <script type="text/javascript" src="scripts/menu.js"></script>
+
+    <!-- Funcionalidad para Progress-bar-scroll del inicio -->
+    <script src="scripts/scroll-timeline.js"></script>
+
+    <script>
+
+        // Create ScrollTimeline
+        const myScrollTimeline = new ScrollTimeline({
+            source: document.scrollingElement,
+            scrollSource: document.scrollingElement, // For legacy implementations
+            orientation: 'block',
+            scrollOffsets: [
+                new CSSUnitValue(0, 'percent'),
+                new CSSUnitValue(100, 'percent'),
+            ],
+        });
+
+        // Animate Progress Bar on Scroll
+        new Animation(
+            new KeyframeEffect(
+                document.querySelector('#progress'),
+                {
+                    transform: ['scaleX(0)', 'scaleX(1)'],
+                },
+                { duration: 1, fill: "forwards" }
+            ),
+            myScrollTimeline
+        ).play();
+
+    </script>
+    <!--  -->
+
+    <!-- IR ARRIBA -->
+    <script>
+
+        $(document).ready(function () {
+
+            $('.ir-arriba').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(300);
+                } else {
+                    $('.ir-arriba').slideUp(300);
+                }
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
