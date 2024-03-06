@@ -6,7 +6,7 @@
     top: 65%;
     left: 30%;
     transform: translate(-50%, -50%);
-    font-size: 3vw;
+    /* font-size: 3vw; */
     z-index: 100;
     text-align: left;
 
@@ -43,10 +43,16 @@ footer{
     }
 } */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .titulo-principal-unit{
-        font-size: 6vw;
+        font-size: 5vw;
         left: 33%;
+    }
+
+    @media screen and (min-width: 769px){
+        .titulo-principal-unit{
+            font-size: 5vw;
+        }
     }
 
     .margin-left-titulo{
