@@ -173,13 +173,18 @@ body {
     background-color: #E5EEF9;
     border-top: 2px solid #3E5089;
     border-bottom: 2px solid #3E5089;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding: 2rem;
 }
 
 /* Info General, Presentación: */
 .contenido_desbordado {
     font-size: .8rem;
+}
+
+@media screen and (min-width: 400px) {
+    .contenido_desbordado {
+        font-size: 1.1250rem;
+    }
 }
 
 /* .contenedor_pestañas {
@@ -194,28 +199,31 @@ body {
     align-items: center;
     width: 700px;
     margin: auto;
-    gap: .2rem;
+    gap: 1rem;
 }
 
 .pestaña {
     background-color: #3E5089;
     color: white;
-    height: 50px;
-    width: 280px;
+    width: 309px;
     text-align: center;
     padding: .5rem;
     border: 2px solid #3E5089;
     border-bottom: none;
     margin-bottom: 0rem;
+    font-size: 1.3125rem;
+    height: 50px;
 }
 
 .pestaña:hover {
-    background-color: #E5EEF9;
+    background-color: white;
     color: #3E5089;
-    font-weight: bold;
-    transition: 1s;
-    text-transform: none !important;
-    font-size: 1.125rem !important;
+    transition: 1s;    
+    border: 2px solid #3E5089;
+    border-bottom: none;
+    /* transition: .5s;
+    border: 2px solid #3E5089;
+    padding: .5rem; */
 }
 
 .contenido_pestaña {
@@ -260,9 +268,9 @@ body {
 /* Section contenido fin */
 
 /* tamaño imagen footer */
-.tamaño__img {
+/* .tamaño__img {
     height: 11rem;
-}
+} */
 
 
 .fondo {
@@ -838,7 +846,7 @@ a.sidebar__enlace {
 
 .btn:hover {
     background: linear-gradient(90deg, #0051a0 0%, #0b1b74 70%);
-    transition: 3s;
+    transition: 1s;
     color: white;
     font-weight: bold;
     text-transform: none !important;
@@ -1463,7 +1471,8 @@ a:hover {
 .btn-cerrar-modal {
     background: linear-gradient(90deg, #0051a0 0%, #0b1b74 90%);
     color: white;
-    font-size: 1.1em !important;
+    font-size: 1.3125rem !important;
+    text-transform: inherit;    
     padding: 0.7em 2em;
     opacity: 1;
 }
@@ -1471,9 +1480,10 @@ a:hover {
 .btn-cerrar-modal:hover {
     color: #164992;
     background: rgb(246, 247, 247);
+    transition: 1s;
     background: #fff;
     text-shadow: none;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 @media (min-width: 992px) {
@@ -2125,6 +2135,7 @@ h1.texto-azul:after,
     padding: 0.5rem 2rem;
     border-radius: 4px;
     font-weight: bold;
+    text-transform: inherit;
 }
 
 .btn-azul-modals:hover {
