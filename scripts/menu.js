@@ -10,11 +10,11 @@ class Menu extends HTMLElement {
             </li>
 
             <li class="sidebar__elemento">
-                <a class="sidebar__enlace sidebar__elemento--borde" href="./topic1/General-Information.html">Información General</a>
+                <a class="sidebar__enlace sidebar__elemento--borde" href="./topic1/General-Information.html">Información general</a>
             </li>
             
             <li class="sidebar__elemento sangria-menu">
-                <a class="sidebar__enlace" href="./topic1/topic-1.html"><b></b>Tema 1. Introducción a la Seguridad de la Información</a>
+                <a class="sidebar__enlace" href="./topic1/topic-1.html"><b></b>Tema 1. Introducción a la seguridad de la información</a>
             </li>
 
             <li class="sidebar__elemento sangria-menu">
