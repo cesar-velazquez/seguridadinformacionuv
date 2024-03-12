@@ -32,7 +32,9 @@
     <navbar class="sidebar" style="overflow-y: scroll;">
 
         <div class="sidebar__encabezado">
-            <button class="btn btn-link sidebar__dismiss" aria-label="Cerrar menú desplegado">
+            <button role="navigation" aria-details="Close side menu" class="btn btn-link sidebar__dismiss"
+                aria-label="Cerrar menú desplegado">
+                <span class="sr-only">Close navigation menu</span>
                 <span>X</span>
             </button>
         </div>
@@ -117,14 +119,16 @@
                         Este curso proporcionará una base en seguridad de la información, abordando conceptos esenciales
                         para proteger la integridad, confidencialidad y disponibilidad de la información en entornos
                         digitales.
-                        <br> <br>
+                    </p>
+                    <p class="parrafo">
                         Los participantes explorarán temas como control interno, normatividad, seguridad física, lógica
                         y administrativa,
                         ISO/IEC 27000, gestión del riesgo, ciberamenazas, y arquitecturas de seguridad. Además, se
                         examinarán aspectos prácticos, incluyendo ingeniería social,
-                        identidad digital, <span class="font-italic">phishing</span>, contraseñas seguras, <span
-                            class="font-italic">malware</span> y cifrado.
-                        <br> <br>
+                        identidad digital, <span lang="en" class="font-italic">phishing</span>, contraseñas seguras,
+                        <span lang="en" class="font-italic">malware</span> y cifrado.
+                    </p>
+                    <p class="parrafo">
                         Este curso es esencial para profesionales y entusiastas, que buscan comprender y aplicar medidas
                         efectivas de seguridad en el mundo digital actual.
                     </p>
@@ -148,10 +152,10 @@
 
                     <!-- schedule-units -->
                     <div class="section_topics">
-                        <div class="section_tema">
+                        <div class="section_tema ">
                             <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
                                 aria-hidden="true" width="45px" height="auto">
-                            <p class=" parrafo mb-0 ">
+                            <p class=" parrafo padding_tema mb-0 ">
                                 <b>Tema 1.</b> Introducción a la seguridad de la información
                             </p>
                         </div>
@@ -160,7 +164,7 @@
                         <div class="section_tema">
                             <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
                                 aria-hidden="true" width="45px" height="auto">
-                            <p class="parrafo mb-0 ">
+                            <p class="parrafo padding_tema mb-0 ">
                                 <b>Tema 2.</b> Seguridad de la información
                             </p>
                         </div>
@@ -168,7 +172,7 @@
                         <div class="section_tema">
                             <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
                                 aria-hidden="true" width="45px" height="auto">
-                            <p class="parrafo mb-0 ">
+                            <p class="parrafo padding_tema mb-0 ">
                                 <b>Tema 3.</b> Ciberseguridad
                             </p>
                         </div>
@@ -176,7 +180,7 @@
                         <div class="section_tema">
                             <img class="icono_medida" src="./images/SDI-_icono-estrella.png" alt="Support image"
                                 aria-hidden="true" width="45px" height="auto">
-                            <p class="parrafo mb-0 ">
+                            <p class="parrafo padding_tema mb-0 ">
                                 <b>Tema 4.</b> Aplicación de la seguridad de la información
                             </p>
                         </div>
@@ -239,7 +243,7 @@
                             </div>
 
                             <p class="parrafo text-azul mb-2 text-center">
-                                Susana Janeth Rosario Martínez
+                                Nombre
                             </p>
 
                             <p class="parrafo text-center mb-3">
@@ -272,23 +276,22 @@
                         <p class="parrafo">
                             Licenciado en Informática por la Universidad Veracruzana. Diplomado en seguridad de la
                             información por parte de la Universidad de Chihuahua.
-                            <br><br>
-                            Segunda edición del Curso Internacional para CISO de Universidades Iberoamericanas por parte
-                            de MetaRed.
-                            <br><br>
-                            Experiencia de 7 años laborando en el departamento de redes y telecomunicaciones,
-                            participando en diversos proyectos de innovación del área.   ​
-                            <br><br>
-                            En la actualidad, es responsable del departamento de Seguridad y Monitoreo de la Universidad
-                            Veracruzana, el cual funge como un equipo de respuesta de incidentes de ciberseguridad, el
-                            UV-CSIRT. Así mismo, es colaborador en el grupo de seguridad de la información de
-                            ANUIES-TIC y colaborador en el grupo de Ciberseguridad de Metared México.
-                            <br><br>
-                            Cursos de seguridad como CISSP, <span class="font-italic" lang="en">Network Defender,
-                                Ethical Hacking, Pentesting, Computer Hacking Forensic Investigator,</span> NIST, ISO
-                            27032, ISO 27035, Seguridad y gestión en Redes. 
                         </p>
-
+                        <p class="parrafo">Segunda edición del Curso Internacional para CISO de Universidades
+                            Iberoamericanas por parte
+                            de MetaRed.</p>
+                        <p class="parrafo"> Experiencia de 7 años laborando en el departamento de redes y
+                            telecomunicaciones,
+                            participando en diversos proyectos de innovación del área.</p>
+                        <p class="parrafo"> En la actualidad, es responsable del departamento de Seguridad y Monitoreo
+                            de la Universidad
+                            Veracruzana, el cual funge como un equipo de respuesta de incidentes de ciberseguridad, el
+                            <span aria-hidden="true" >UV</span><span class="sr-only">U V</span>-CSIRT. Así mismo, es colaborador en el grupo de seguridad de la información de
+                            ANUIES-TIC y colaborador en el grupo de Ciberseguridad de Metared México.</p>
+                        <p class="parrafo"> Cursos de seguridad como CISSP, <span class="font-italic" lang="en">Network
+                                Defender,
+                                Ethical Hacking, Pentesting, Computer Hacking Forensic Investigator,</span> NIST, ISO
+                            27032, ISO 27035, Seguridad y gestión en Redes. </p>   
                     </div>
 
                     <div class="tarjeta-designers p-3 mt-3">
@@ -299,7 +302,7 @@
                         </div>
 
                         <p class="parrafo text-azul mb-2 text-center">
-                            Susana Janeth Rosario Martínez
+                            Nombre
                         </p>
 
                         <p class="parrafo text-center">
@@ -323,10 +326,11 @@
 
                 <div class="padding__escritorio padding__movil">
 
-                    <h2 class="parrafo text-azul ">
+                    <!-- parrafo text-azul subtitulos text__color -->
+                    <h2 class="parrafo text-azul subtitulos text__color ">
                         <img src="./images/SDI-_icono-03.png" alt="Support image" aria-hidden="true" width="45px"
                             height="auto">
-                        &nbsp;Referencias bibliográficas
+                        &nbsp; Referencias bibliográficas
                     </h2>
 
                     <!-- </div> -->
@@ -448,13 +452,13 @@
 
     <div class="overlay"></div>
 
-
-    <div class="modal fade" id="methods-2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- role="dialog"  -->
+    <div class="modal fade" id="methods-2" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
 
                 <div class="modal-header position-modal">
-                    <button type="button" class="close_modal btn-cerrar-modal" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close_modal btn-cerrar-modal" role="dialog" data-dismiss="modal" aria-label="cerrar">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
@@ -466,7 +470,7 @@
                         <div class="text-center">
 
                             <p class="parrafo text-azul" lang="es">
-                                Susana Janeth Rosario Martínez
+                                Nombre
                             </p>
 
                         </div>
@@ -508,14 +512,15 @@
         </div>
     </div>
 
-
-    <div class="modal fade" id="methods-1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- role="dialog"  -->
+    <div class="modal fade" id="methods-1" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
 
                 <div class="modal-header">
-                    <button type="button" class="btn-cerrar-modal btn-cerrar-modal" data-dismiss="modal"
-                        aria-label="Close">
+                    <!-- -->
+                    <button type="button" role="dialog" class="btn-cerrar-modal btn-cerrar-modal" data-dismiss="modal"
+                    aria-label="Cerrar" >
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
@@ -525,32 +530,28 @@
                     <div class="container">
 
                         <div class="text-center">
-
                             <p class="parrafo text-azul" lang="es">
                                 Rigo Daniel Salazar Falfán
                             </p>
-
                         </div>
 
-
-                        <p class="parrafo">
-                            <span lang="es"></span>
-                            Licenciado en Informática por la Universidad Veracruzana. Diplomado en seguridad de la
-                            información por parte de la Universidad de Chihuahua. 
-                            <br><br>
-                            Segunda edición del Curso Internacional para CISO de Universidades Iberoamericanas por parte
-                            de MetaRed.
-                            <br><br>
-                            Experiencia de 7 años laborando en el departamento de redes y telecomunicaciones,
-                            participando en diversos proyectos de innovación del área.  
-                            <br><br>
-                            En la actualidad, es responsable del departamento de Seguridad y Monitoreo de la Universidad
+                        <p class="parrafo">Licenciado en Informática por la Universidad Veracruzana. Diplomado en
+                            seguridad de la
+                            información por parte de la Universidad de Chihuahua. </p>
+                        <p class="parrafo">Segunda edición del Curso Internacional para CISO de Universidades
+                            Iberoamericanas por parte
+                            de MetaRed.</p>
+                        <p class="parrafo"> Experiencia de 7 años laborando en el departamento de redes y
+                            telecomunicaciones,
+                            participando en diversos proyectos de innovación del área.  </p>
+                        <p class="parrafo"> En la actualidad, es responsable del departamento de Seguridad y Monitoreo
+                            de la Universidad
                             Veracruzana, el cual funge como un equipo de respuesta de incidentes de ciberseguridad, el
-                            UV-CSIRT. Así mismo, es colaborador en el grupo de seguridad de la información de
-                            ANUIES-TIC y colaborador en el grupo de Ciberseguridad de MetaRed México. 
-                            <br> <br>
-                            Cursos de seguridad como CISSP,<span lang="en" class="font-italic">Network Defender, Ethical
-                                Hacking, Pentesting, Computer, Hacking Forensic Investigator</span>, NIST, ISO 27032,
+                            <span aria-hidden="true" >UV</span><span class="sr-only">U V</span>-CSIRT. Así mismo, es colaborador en el grupo de seguridad de la información de
+                            ANUIES-TIC y colaborador en el grupo de Ciberseguridad de MetaRed México.</p>
+                        <p class="parrafo">
+                            Cursos de seguridad como CISSP, <span lang="en" class="font-italic">Network Defender, Ethical
+                                Hacking, Pentesting, Computer, Hacking Forensic Investigator, </span>NIST, ISO 27032,
                             ISO 27035,
                             Seguridad y gestión en Redes. 
                         </p>
